@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vue Mouse Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+</head>
+<body>
+    
+    <div id="my-block">
+        <div id="myCanvas" v-on:mousemove="update" style="width:600px;height:600px;border:1px solid #000000;">
+            <h1 style="margin-top:45%;margin-left:40%;">{{x}} px,{{y}} px</h2>
+        </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
